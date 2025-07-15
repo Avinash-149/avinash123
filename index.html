@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sisterz n Farm</title>
   <style>
-    body {
+  body {
   font-family: Arial, sans-serif;
-  background: url('https://i.pinimg.com/736x/f4/e6/a4/f4e6a4ebdbbcc493b1f9fee75ae6b9b7.jpg') no-repeat center center fixed;
+  background: url('https://i.pinimg.com/736x/f4/e6/a4/f4e6a4ebdbbcc493b1f9fee75ae6b9b7.jpg') no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   padding: 20px;
 }
+
 
 
     header {
@@ -174,12 +176,62 @@
     summary::-webkit-details-marker {
       display: none;
     }
+    @media (max-width: 768px) {
+  body {
+    padding: 10px;
+    background-attachment: scroll;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  .hero img {
+    max-height: 200px;
+  }
+
+  section {
+    margin: 10px 0;
+    padding: 20px 10px;
+  }
+
+  .ghee-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    max-width: 90%;
+  }
+
+  .order-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .faq-question {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+
+  .faq-answer {
+    font-size: 15px;
+  }
+}
+
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Sisterz n Farm 🌾</h1>
+    <h1>Sisterz Farm n dairy 🌾</h1>
     <p>Organic | Sustainable | Empowered</p>
   </header>
 
@@ -196,7 +248,7 @@
 
 
   <section id="about">
-    <h2>Welcome to Sisterz n Farm 🌱</h2>
+    <h2>Welcome to Sisterz Farm n dairy 🌱</h2>
     <p>We are growing pure, organic produce with love and care.  
     Our goal is to bring fresh, chemical-free products straight from our farm to your table.</p>
 
@@ -213,8 +265,8 @@
       <!-- First Jar -->
       <div class="image-container">
         <img src="https://m.media-amazon.com/images/I/71TaT6QflnL._SX679_.jpg" alt="Jar of desi ghee 1000ml">
-        <div class="order-options">
-          <a href="https://Avinash-149.github.io/avinash123/ordernow2">
+        <div class="order-buttons" style="margin-top: 10px;">
+          <a href="http://127.0.0.1:5500/sisters/ordernow2.html">
             <button class="order-button">Order via Paytm</button>
           </a>
           <a href="https://wa.me/919442706325?text=Hi%2C%20I%20want%20to%20order%201000ml%20Desi%20Ghee%20from%20Sisterz%20n%20Farm" target="_blank">
@@ -226,8 +278,8 @@
       <!-- Second Jar -->
       <div class="image-container">
         <img src="https://m.media-amazon.com/images/I/71nmLI7HgLL._SX679_.jpg" alt="Jar of desi ghee 500ml">
-        <div class="order-options">
-          <a href="https://Avinash-149.github.io/avinash123/ordernow2">
+        <div class="order-buttons" style="margin-top: 10px;">
+          <a href="http://127.0.0.1:5500/sisters/ordernow2.html">
             <button class="order-button">Order via Paytm</button>
           </a>
           <a href="https://wa.me/919442706325?text=Hi%2C%20I%20want%20to%20order%20500ml%20Desi%20Ghee%20from%20Sisterz%20n%20Farm" target="_blank">
@@ -359,13 +411,13 @@
 
   <section id="contact">
     <h2>Contact Us 📞</h2>
-    <p>Email: <a href="mailto:procoderavinash@gmail.com">procoderavinash@gmail.com</a></p>
-    <p>Phone: <a href="tel:+919442706325">+91 94427 06325</a></p>
-    <p>WhatsApp: <a href="https://wa.me/919442706325" target="_blank">Chat Now</a></p>
+    <p>Email: <a href="mailto:sisterzfarmndairy@gmail.com">sisterzfarmndairy@gmail.com</a></p>
+    <p>Phone: <a href="tel:+9817833515">+91 9817833515</a></p>
+    <p>WhatsApp: <a href="https://wa.me/917579171397" target="_blank">Chat Now</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Sisterz n Farm. All rights reserved.</p>
+    <p>&copy; 2025 Sisterz Farm n dairy. All rights reserved.</p>
   </footer>
 </body>
 </html>
